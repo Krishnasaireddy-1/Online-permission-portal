@@ -1,0 +1,124 @@
+.start-container {
+  position: relative;
+  display: flex;
+  margin-top: 0px;
+  align-items: left;
+  margin-left:0px;
+  justify-content: left;
+  height: 100vh; /* Full viewport height */
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the entire container */
+  z-index: -1; /* Send the image to the background */
+}
+.container {
+  display: flex;
+}
+
+.menu {
+  width: 200px;
+  height:100%;
+  padding: 20px;
+}
+
+.contentapp {
+  flex: 1;
+  padding: 20px;
+
+
+}
+.Check{
+  background-color: pink;
+}
+.content {
+  position: relative; /* Set to relative so absolute positioning inside works */
+  z-index: 1; /* Ensure content is above the image */
+  text-align: center;
+}
+
+.enter-button {
+  padding: 19px;
+  margin: 15px;
+  margin-top:90px;
+  width:420px;
+  margin-left:100px;
+  display: flex;
+  font-size: 16px;
+  background-color:#4e4feb;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.text-input {
+  padding: 23px;
+  margin: 25px;
+  width:100px;
+  margin-left:100px;
+  display: flex;
+  font-size: 16px;
+  background-color:#0d1032;
+  color: #fff;
+  border: white;
+  border-width: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.enter-button:hover {
+  background-color: #0d1032;
+}
+
+/* Apply custom styling to input elements */
+.text-input {
+  width: 380px; /* Adjust width as needed */
+}
+.input-group {
+  margin-top:220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-select {
+  padding: 23px;
+  margin: 25px;
+  width:425px;
+  margin-left:100px;
+  display: flex;
+  font-size: 16px;
+  background-color:#0d1032;
+  color: #fff;
+  border: white;
+  border-width: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.hpmg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the entire container */
+  z-index: -1; 
+}
+.app-container {
+  background-color: pink; /* Default background color */
+}
+
+/*.app-container.logged-in {
+  background-image: url('./Homepage.jpg'); /* Set the background image 
+  background-size: cover; /* Cover the entire container 
+  background-position: center; /* Center the background image 
+
+}
+*/
