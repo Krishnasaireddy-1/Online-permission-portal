@@ -1,0 +1,42 @@
+.Participants{
+   
+    background-color: pink;
+    margin-top: 100px;
+    position: absolute;
+    width:77%;
+    margin-left:250px;
+    text-align: center;
+    height:678px;
+}
+.Manevents{
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 250px;
+    background-color: greenyellow;
+    height:678px;
+    width:77%;
+}
+.Manmenu{
+    position: absolute;
+    margin-top: 100px;
+    width:250px;
+    height:678px;
+    background-color: bisque;
+}
+.Manhelp{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 250px;
+    width:77%;
+    height:678px;
+    background-color: lightgoldenrodyellow;
+}
+.Mansettings{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 250px;
+
+    width:77%;
+    height:678px;
+    background-color: lightseagreen;
+}

@@ -1,0 +1,29 @@
+.Permreq{
+    margin-top: 250px;
+    position: absolute;
+    width:77%;
+    margin-left:250px;
+    text-align: center;
+    height:678px;
+}
+.Events{
+    margin-top: 300px;
+    position: absolute;
+    margin-left: 650px;
+    height:678px;
+    width:77%;
+}
+.Hodmenu{
+    position: absolute;
+    width:100%;
+    height:100%;
+    background-image: url("Studentdash.jpg");
+    background-size: cover;
+    /* background-color: bisque; */
+}
+.Hodtext{
+    margin-top: 250px;
+}
+.two{
+    color: white;
+}
